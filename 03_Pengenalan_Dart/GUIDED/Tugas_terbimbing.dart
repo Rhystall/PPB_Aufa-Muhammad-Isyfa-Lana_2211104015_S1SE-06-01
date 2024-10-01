@@ -1,6 +1,4 @@
 void main() {
-  print("Samlekom mamang");
-
 // Menggunakan var
   var name = 'Praktikum PPB';
 // Type annotation
@@ -58,15 +56,17 @@ void main() {
   }
 
 // For loop sederhana
+  print("For loop sederhana");
   for (int i = 1; i <= 5; i++) {
     print(i);
   }
 
-  int i = 1;
+  print("While loop sederhana");
+  int x = 1;
 // While loop sederhana
-  while (i <= 5) {
-    print(i);
-    i++; //
+  while (x <= 5) {
+    print(x);
+    x++; //
   }
 
   // Membuat fixed-length list dengan panjang 3
