@@ -30,7 +30,7 @@ lalu setelahnya matrix akan ditampilkan melalui perulangan for seperti tadi.
 - baris 2 berisi 4 bilangan genap berurutan mulai dari 2
 - baris 3 berisi 5 bilangan kuadrat dari bilangan asli mulai dari 1
 - baris 4 berisi 6 bilangan asli berurutan mulai dari 3
-- 
+  
 ## Jawab : 
 ### Code : 
 ![image](https://github.com/user-attachments/assets/1aab41f1-c0b9-4f4b-abbc-436bccdb604d)
