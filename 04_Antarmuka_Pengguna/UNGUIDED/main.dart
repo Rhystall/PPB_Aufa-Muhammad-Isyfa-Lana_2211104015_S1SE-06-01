@@ -7,11 +7,10 @@
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
 
-//   // This widget is the root of your application.
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
-//       title: 'Flutter Demo',
+//       title: 'Wisata Banyumas',
 //       theme: ThemeData(
 //         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
 //         useMaterial3: true,
@@ -28,7 +27,7 @@
 //   @override
 //   Widget build(BuildContext context) {
 //     List<Widget> listWisata = [
-//       // Wisata 1: The Forbidden City
+//       // Wisata 1: Baturraden
 //       Container(
 //         margin: EdgeInsets.all(8),
 //         child: Card(
@@ -40,7 +39,7 @@
 //           child: Stack(
 //             children: [
 //               Image.network(
-//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Forbidden_City_Beijing_Shenwumen_Gate.JPG/1280px-Forbidden_City_Beijing_Shenwumen_Gate.JPG',
+//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Baturraden_overview_from_ridge%2C_Purwokerto%2C_2015-03-23.jpg/1920px-Baturraden_overview_from_ridge%2C_Purwokerto%2C_2015-03-23.jpg',
 //                 fit: BoxFit.cover,
 //                 height: 300,
 //                 width: double.infinity,
@@ -63,83 +62,11 @@
 //                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
 //                           children: [
 //                             Text(
-//                               "The Forbidden City",
+//                               "Baturraden",
 //                               style: TextStyle(fontWeight: FontWeight.bold),
 //                             ),
 //                             Text(
-//                               "\$12k/Trip",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                           ],
-//                         ),
-//                         SizedBox(height: 4),
-//                         Row(
-//                           children: [
-//                             Icon(
-//                               Icons.location_on_outlined,
-//                               color: Colors.grey,
-//                             ),
-//                             Text(
-//                               "China",
-//                               style: TextStyle(color: Colors.grey),
-//                             ),
-//                             SizedBox(width: 16),
-//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
-//                             Text(
-//                               '14km',
-//                               style: TextStyle(color: Colors.grey),
-//                             )
-//                           ],
-//                         )
-//                       ],
-//                     ),
-//                   ),
-//                 ),
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//       // Wisata 2: Mount Fuji
-//       Container(
-//         margin: EdgeInsets.all(8),
-//         child: Card(
-//           shape: RoundedRectangleBorder(
-//             borderRadius: BorderRadius.circular(16),
-//           ),
-//           clipBehavior: Clip.antiAlias,
-//           elevation: 4,
-//           child: Stack(
-//             children: [
-//               Image.network(
-//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/080103_hakkai_fuji.jpg/1200px-080103_hakkai_fuji.jpg',
-//                 fit: BoxFit.cover,
-//                 height: 300,
-//                 width: double.infinity,
-//               ),
-//               Positioned(
-//                 bottom: 10,
-//                 left: 10,
-//                 right: 10,
-//                 child: ClipRRect(
-//                   borderRadius: BorderRadius.circular(16),
-//                   child: Container(
-//                     color: Colors.white,
-//                     height: 80,
-//                     width: double.infinity,
-//                     padding: EdgeInsets.all(16),
-//                     child: Column(
-//                       crossAxisAlignment: CrossAxisAlignment.start,
-//                       children: [
-//                         Row(
-//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                           children: [
-//                             Text(
-//                               "Mount Fuji",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                             Text(
-//                               "\$15k/Trip",
+//                               "Rp150k/Trip",
 //                               style: TextStyle(fontWeight: FontWeight.bold),
 //                             ),
 //                           ],
@@ -152,151 +79,7 @@
 //                               color: Colors.grey,
 //                             ),
 //                             Text(
-//                               "Japan",
-//                               style: TextStyle(color: Colors.grey),
-//                             ),
-//                             SizedBox(width: 16),
-//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
-//                             Text(
-//                               '18km',
-//                               style: TextStyle(color: Colors.grey),
-//                             )
-//                           ],
-//                         )
-//                       ],
-//                     ),
-//                   ),
-//                 ),
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//       // Wisata 3: Bali
-//       Container(
-//         margin: EdgeInsets.all(8),
-//         child: Card(
-//           shape: RoundedRectangleBorder(
-//             borderRadius: BorderRadius.circular(16),
-//           ),
-//           clipBehavior: Clip.antiAlias,
-//           elevation: 4,
-//           child: Stack(
-//             children: [
-//               Image.network(
-//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Besakih_Bali_Indonesia_Pura-Besakih-02.jpg/1280px-Besakih_Bali_Indonesia_Pura-Besakih-02.jpg',
-//                 fit: BoxFit.cover,
-//                 height: 300,
-//                 width: double.infinity,
-//               ),
-//               Positioned(
-//                 bottom: 10,
-//                 left: 10,
-//                 right: 10,
-//                 child: ClipRRect(
-//                   borderRadius: BorderRadius.circular(16),
-//                   child: Container(
-//                     color: Colors.white,
-//                     height: 80,
-//                     width: double.infinity,
-//                     padding: EdgeInsets.all(16),
-//                     child: Column(
-//                       crossAxisAlignment: CrossAxisAlignment.start,
-//                       children: [
-//                         Row(
-//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                           children: [
-//                             Text(
-//                               "Bali",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                             Text(
-//                               "\$9k/Trip",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                           ],
-//                         ),
-//                         SizedBox(height: 4),
-//                         Row(
-//                           children: [
-//                             Icon(
-//                               Icons.location_on_outlined,
-//                               color: Colors.grey,
-//                             ),
-//                             Text(
-//                               "Indonesia",
-//                               style: TextStyle(color: Colors.grey),
-//                             ),
-//                             SizedBox(width: 16),
-//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
-//                             Text(
-//                               '20km',
-//                               style: TextStyle(color: Colors.grey),
-//                             )
-//                           ],
-//                         )
-//                       ],
-//                     ),
-//                   ),
-//                 ),
-//               ),
-//             ],
-//           ),
-//         ),
-//       ),
-//       // Wisata 4: Wat Phra Kew
-//       Container(
-//         margin: EdgeInsets.all(8),
-//         child: Card(
-//           shape: RoundedRectangleBorder(
-//             borderRadius: BorderRadius.circular(16),
-//           ),
-//           clipBehavior: Clip.antiAlias,
-//           elevation: 4,
-//           child: Stack(
-//             children: [
-//               Image.network(
-//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/0005574_-_Wat_Phra_Kaew_006.jpg/1200px-0005574_-_Wat_Phra_Kaew_006.jpg',
-//                 fit: BoxFit.cover,
-//                 height: 300,
-//                 width: double.infinity,
-//               ),
-//               Positioned(
-//                 bottom: 10,
-//                 left: 10,
-//                 right: 10,
-//                 child: ClipRRect(
-//                   borderRadius: BorderRadius.circular(16),
-//                   child: Container(
-//                     color: Colors.white,
-//                     height: 80,
-//                     width: double.infinity,
-//                     padding: EdgeInsets.all(16),
-//                     child: Column(
-//                       crossAxisAlignment: CrossAxisAlignment.start,
-//                       children: [
-//                         Row(
-//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                           children: [
-//                             Text(
-//                               "Wat Phra Kew",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                             Text(
-//                               "\$11k/Trip",
-//                               style: TextStyle(fontWeight: FontWeight.bold),
-//                             ),
-//                           ],
-//                         ),
-//                         SizedBox(height: 4),
-//                         Row(
-//                           children: [
-//                             Icon(
-//                               Icons.location_on_outlined,
-//                               color: Colors.grey,
-//                             ),
-//                             Text(
-//                               "Thailand",
+//                               "Banyumas",
 //                               style: TextStyle(color: Colors.grey),
 //                             ),
 //                             SizedBox(width: 16),
@@ -316,13 +99,229 @@
 //           ),
 //         ),
 //       ),
+//       // Wisata 2: Curug Cipendok
+//       Container(
+//         margin: EdgeInsets.all(8),
+//         child: Card(
+//           shape: RoundedRectangleBorder(
+//             borderRadius: BorderRadius.circular(16),
+//           ),
+//           clipBehavior: Clip.antiAlias,
+//           elevation: 4,
+//           child: Stack(
+//             children: [
+//               Image.network(
+//                 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Curug_Cipendok_Waterfall.jpg/675px-Curug_Cipendok_Waterfall.jpg',
+//                 fit: BoxFit.cover,
+//                 height: 300,
+//                 width: double.infinity,
+//               ),
+//               Positioned(
+//                 bottom: 10,
+//                 left: 10,
+//                 right: 10,
+//                 child: ClipRRect(
+//                   borderRadius: BorderRadius.circular(16),
+//                   child: Container(
+//                     color: Colors.white,
+//                     height: 80,
+//                     width: double.infinity,
+//                     padding: EdgeInsets.all(16),
+//                     child: Column(
+//                       crossAxisAlignment: CrossAxisAlignment.start,
+//                       children: [
+//                         Row(
+//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                           children: [
+//                             Text(
+//                               "Curug Cipendok",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                             Text(
+//                               "Rp75k/Trip",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                           ],
+//                         ),
+//                         SizedBox(height: 4),
+//                         Row(
+//                           children: [
+//                             Icon(
+//                               Icons.location_on_outlined,
+//                               color: Colors.grey,
+//                             ),
+//                             Text(
+//                               "Banyumas",
+//                               style: TextStyle(color: Colors.grey),
+//                             ),
+//                             SizedBox(width: 16),
+//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
+//                             Text(
+//                               '25km',
+//                               style: TextStyle(color: Colors.grey),
+//                             )
+//                           ],
+//                         )
+//                       ],
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//             ],
+//           ),
+//         ),
+//       ),
+//       // Wisata 3: Taman Andhang Pangrenan
+//       Container(
+//         margin: EdgeInsets.all(8),
+//         child: Card(
+//           shape: RoundedRectangleBorder(
+//             borderRadius: BorderRadius.circular(16),
+//           ),
+//           clipBehavior: Clip.antiAlias,
+//           elevation: 4,
+//           child: Stack(
+//             children: [
+//               Image.network(
+//                 'https://joss.co.id/data/uploads/2024/07/taman-andhang-pangrenan-purwokerto-3.jpg',
+//                 fit: BoxFit.cover,
+//                 height: 300,
+//                 width: double.infinity,
+//               ),
+//               Positioned(
+//                 bottom: 10,
+//                 left: 10,
+//                 right: 10,
+//                 child: ClipRRect(
+//                   borderRadius: BorderRadius.circular(16),
+//                   child: Container(
+//                     color: Colors.white,
+//                     height: 80,
+//                     width: double.infinity,
+//                     padding: EdgeInsets.all(16),
+//                     child: Column(
+//                       crossAxisAlignment: CrossAxisAlignment.start,
+//                       children: [
+//                         Row(
+//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                           children: [
+//                             Text(
+//                               "Taman Andhang Pangrenan",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                             Text(
+//                               "Rp50k/Trip",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                           ],
+//                         ),
+//                         SizedBox(height: 4),
+//                         Row(
+//                           children: [
+//                             Icon(
+//                               Icons.location_on_outlined,
+//                               color: Colors.grey,
+//                             ),
+//                             Text(
+//                               "Banyumas",
+//                               style: TextStyle(color: Colors.grey),
+//                             ),
+//                             SizedBox(width: 16),
+//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
+//                             Text(
+//                               '5km',
+//                               style: TextStyle(color: Colors.grey),
+//                             )
+//                           ],
+//                         )
+//                       ],
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//             ],
+//           ),
+//         ),
+//       ),
+//       // Wisata 4: Museum BRI
+//       Container(
+//         margin: EdgeInsets.all(8),
+//         child: Card(
+//           shape: RoundedRectangleBorder(
+//             borderRadius: BorderRadius.circular(16),
+//           ),
+//           clipBehavior: Clip.antiAlias,
+//           elevation: 4,
+//           child: Stack(
+//             children: [
+//               Image.network(
+//                 'https://assets-a1.kompasiana.com/items/album/2018/12/16/bri-1-5c1544e8677ffb43b152d064.jpg?t=o&v=780',
+//                 fit: BoxFit.cover,
+//                 height: 300,
+//                 width: double.infinity,
+//               ),
+//               Positioned(
+//                 bottom: 10,
+//                 left: 10,
+//                 right: 10,
+//                 child: ClipRRect(
+//                   borderRadius: BorderRadius.circular(16),
+//                   child: Container(
+//                     color: Colors.white,
+//                     height: 80,
+//                     width: double.infinity,
+//                     padding: EdgeInsets.all(16),
+//                     child: Column(
+//                       crossAxisAlignment: CrossAxisAlignment.start,
+//                       children: [
+//                         Row(
+//                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                           children: [
+//                             Text(
+//                               "Museum Bank Rakyat Indonesia",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                             Text(
+//                               "Gratis",
+//                               style: TextStyle(fontWeight: FontWeight.bold),
+//                             ),
+//                           ],
+//                         ),
+//                         SizedBox(height: 4),
+//                         Row(
+//                           children: [
+//                             Icon(
+//                               Icons.location_on_outlined,
+//                               color: Colors.grey,
+//                             ),
+//                             Text(
+//                               "Banyumas",
+//                               style: TextStyle(color: Colors.grey),
+//                             ),
+//                             SizedBox(width: 16),
+//                             Icon(Icons.alt_route_outlined, color: Colors.grey),
+//                             Text(
+//                               '3km',
+//                               style: TextStyle(color: Colors.grey),
+//                             )
+//                           ],
+//                         )
+//                       ],
+//                     ),
+//                   ),
+//                 ),
+//               ),
+//             ],
+//           ),
+//         ),
+//       ),
 //     ];
 
 //     return Scaffold(
 //         appBar: AppBar(
 //           title: Center(
 //               child: Text(
-//             "Explore Asia",
+//             "Explore Banyumas",
 //             style: TextStyle(fontWeight: FontWeight.bold),
 //           )),
 //         ),
