@@ -8,7 +8,7 @@ void generateMatrix(int A, int B) {
 
   print('Matriks ${A}x${B}:');
   for (var row in matrix) {
-    print(row.join(' '));
+    print(row);
   }
 
   List<List<int>> transposeMatrix =
@@ -16,7 +16,7 @@ void generateMatrix(int A, int B) {
 
   print('\nHasil transpose:');
   for (var row in transposeMatrix) {
-    print(row.join(' '));
+    print(row);
   }
 }
 
